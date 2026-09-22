@@ -22,3 +22,25 @@ mvn spring-boot:run
 ```
 
 La console H2 est disponible sur `http://localhost:8080/h2-console`.
+
+## Frontend
+
+Le dossier `frontend` contient une application React pour gerer le catalogue de telephones.
+
+Fonctionnalites :
+
+- lister les telephones
+- rechercher dans le catalogue
+- ajouter un telephone
+- modifier un telephone
+- supprimer un telephone
+
+Pour lancer le frontend :
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Le frontend sera disponible sur `http://localhost:5173`.
